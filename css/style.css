@@ -39,7 +39,8 @@ img {
 }
 .more:hover {
 	background-position: 0 0;
-	color: #fbf8b5;
+	color: #FAFAFA;
+	font-family: Helvetica;
 }
 /*------------------------------ HEADER ------------------------------*/
 #header {
@@ -58,8 +59,8 @@ img {
 /** Logo **/
 #logo {
 	position: absolute;
-	top: 36px;
-	left: 338px;
+	top: 72px;
+	left: 300px;
 }
 /** Navigation **/
 #navigation {
@@ -179,7 +180,7 @@ img {
 	margin: 0 0 30px;
 }
 #contents {
-	width: 960px;
+	width: 995px;
 	margin: 0 auto;
 	padding: 30px 0;
 }
@@ -225,9 +226,9 @@ img {
 	color: #b6b6b6;
 }
 #sidebar {
-	float: right;
-	height: inherit;
-	width: 220px;
+	float: left;
+	height: 928px;
+	width: 271px;
 	margin: 0 30px 0 10px;
 }
 #sidebar h4, #main h4 {
@@ -258,7 +259,7 @@ ul#about-list li a:hover, ul#archives li a:hover {
 	color: #b5b5b5;
 }
 #main {
-	width: 650px;
+	width: 960px;
 	margin: 0 10px 0 30px;
 }
 #main p {
@@ -421,7 +422,7 @@ ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
 	background-color: #000000;
 }
 #footer div.background {
-	background: url(../images/bg-footer.jpg) repeat;
+	background: url() repeat;
 	padding: 30px 0;
 }
 #footer div.body {
@@ -494,7 +495,7 @@ ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
 	text-align: center;
 }
 #footer .connect a {
-	background: url(../images/icons.png) no-repeat;
+	background: url() no-repeat;
 	display: inline-block;
 	height: 22px;
 	width: 23px;
@@ -529,8 +530,9 @@ ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	bottom: -30px;
-	left: 0;
+	bottom: -31px;
+	left: -1px;
+	height: 31px;
 }
 #footnote a {
 	color: #808080;

@@ -7,9 +7,9 @@
 	font-style: normal;
 }
 body {
-	background: url(http://www.cuded.com/wp-content/uploads/2013/06/8-Black-Background.jpg) repeat;
+	background: #000000 repeat;
 	font-family: Helvetica
-	margin: 0;
+	margin: 30;
 }
 #page {
 	width: 960px;
@@ -32,10 +32,11 @@ img {
 	font-size: 20px;
 	line-height: 54px;
 	height: 54px;
-	width: 152px;
+	width: 250px;
 	margin: 0 auto;
 	text-decoration: none;
 	text-transform: uppercase;
+	margin-top: 30 px;
 }
 .more:hover {
 	background-position: 0 0;
@@ -51,7 +52,7 @@ img {
 }
 #header > div {
 	height: 426px;
-	width: 960px;
+	width: 980px;
 	margin: 0 auto;
 	position: relative;
 	background-color: #000000;
@@ -59,8 +60,8 @@ img {
 /** Logo **/
 #logo {
 	position: absolute;
-	top: 72px;
-	left: 300px;
+	top: 82px;
+	left: 308px;
 }
 /** Navigation **/
 #navigation {
@@ -132,12 +133,13 @@ img {
 }
 /** Adbox **/
 #adbox {
-	width: 960px;
-	margin: 0px auto 24px;
+	width: 980px;
+	margin: 0px auto 50px;
 	position: relative;
 	border-color: #000000;
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
+	padding: 0 0 50;
 	background-color: #000000;
 }
 #adbox ul {
@@ -148,8 +150,9 @@ img {
 }
 #adbox ul li {
 	float: left;
-	width: 288px;
-	margin-left: 16px;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 20px;
 }
 #adbox ul li:first-child {
 	margin-left: 0px;
@@ -164,7 +167,7 @@ img {
 	font-family: Helvetica;
 	height: 61px;
 	line-height: 60px;
-	margin: 0 0 30px;
+	margin: 50 0 30px;
 	text-align: center;
 	text-transform: uppercase;
 	background-image: -webkit-linear-gradient(270deg,rgba(57,52,52,1.00) 100%,rgba(255,0,0,1.00) 100%);
@@ -180,9 +183,10 @@ img {
 	margin: 0 0 30px;
 }
 #contents {
-	width: 995px;
+	width: 980px;
 	margin: 0 auto;
 	padding: 30px 0;
+	font-family: Helvetica;
 }
 #articles {
 	display: inline-block;
@@ -192,8 +196,8 @@ img {
 }
 #articles li {
 	float: left;
-	width: 288px;
-	margin-left: 16px;
+	width: 250px;
+	margin-left: 45px;
 	text-align: center;
 }
 #articles li:first-child {

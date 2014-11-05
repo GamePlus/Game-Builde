@@ -10,6 +10,7 @@ body {
 	background: #000000 repeat;
 	font-family: Helvetica
 	margin: 30;
+	margin-left: 0px;
 }
 #page {
 	width: 960px;
@@ -17,6 +18,7 @@ body {
 }
 img {
 	border: 0;
+	margin-right: 20px;
 }
 .more, #footer .subscribe form input.button, #contacts input.button, #shirts a.button {
 	background: url() no-repeat;
@@ -51,7 +53,7 @@ img {
 	background-color: #000000;
 }
 #header > div {
-	height: 426px;
+	height: 400px;
 	width: 980px;
 	margin: 0 auto;
 	position: relative;
@@ -180,12 +182,23 @@ img {
 	background-color: #000000;
 	border-bottom: 1px solid #000000;
 	border-top: 1px solid #000000;
-	margin: 0 0 30px;
+	margin-top: 0;
+	margin-left: 65px;
+	margin-bottom: 50px;
+	width: 980px;
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
 }
 #contents {
 	width: 980px;
-	margin: 0 auto;
-	padding: 30px 0;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 	font-family: Helvetica;
 }
 #articles {
@@ -215,13 +228,14 @@ img {
 #articles li p {
 	color: #717272;
 	font-size: 14px;
-	line-height: 24px;
-	margin: 0;
-	padding: 0 15px 24px;
+	line-height: 10px;
+	margin: ;
+	padding: 0 25px 24px;
 	background-image: -webkit-linear-gradient(270deg,rgba(49,45,45,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(49,45,45,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(49,45,45,1.00) 100%,rgba(255,0,0,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(49,45,45,1.00) 100%,rgba(255,0,0,1.00) 100%);
+	width: 100px;
 }
 #articles li p a {
 	color: #717272;
@@ -238,7 +252,10 @@ img {
 #sidebar h4, #main h4 {
 	color: #7b8c96;
 	line-height: 24px;
-	margin: 0 0 24px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 20px;
+	margin-bottom: 30px;
 	text-shadow: 1px 0px #151c22, 0px -1px #151c22, -1px 0px #151c22, 0px 1px #151c22;
 }
 h4.uppercase {
@@ -255,8 +272,8 @@ ul#about-list li {
 }
 ul#about-list li a, ul#archives li a {
 	color: #fff;
-	font-size: 15px;
-	line-height: 24px;
+	font-size: 25px;
+	line-height: 50px;
 	text-decoration: none;
 }
 ul#about-list li a:hover, ul#archives li a:hover {
@@ -273,6 +290,7 @@ ul#about-list li a:hover, ul#archives li a:hover {
 	margin: 0;
 	padding: 0 0 24px;
 	text-align: justify;
+	right: auto;
 }
 #main p a {
 	color: #fff;
@@ -412,6 +430,7 @@ ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
 	color: #81888e;
 	font-weight: bold;
 }
+
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
 	background-repeat: repeat-x;

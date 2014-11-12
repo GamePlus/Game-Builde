@@ -181,9 +181,7 @@ img {
 #body {
 	background-color: #000000;
 	border-top: 1px solid #030303;
-	margin-top: 0;
-	margin-left: 65px;
-	margin-bottom: 50px;
+	margin: 0 auto;
 	width: 980px;
 	padding-top: 0;
 	padding-bottom: 0;

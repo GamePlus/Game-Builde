@@ -53,8 +53,8 @@ img {
 	background-color: #000000;
 }
 #header > div {
-	height: 495px;
-	width: 980px;
+	height: 300px;
+	width: 960px;
 	margin: 0 auto;
 	position: relative;
 	background-color: #000000;
@@ -62,8 +62,11 @@ img {
 /** Logo **/
 #logo {
 	position: absolute;
-	top: 186px;
-	left: 343px;
+	top: 27px;
+	left: 337px;
+	right: 150px;
+	width: 282px;
+	height: 170px;
 }
 /** Navigation **/
 #navigation {
@@ -84,6 +87,7 @@ img {
 }
 #navigation div.infos {
 	float: right;
+	width: 960px;
 }
 #navigation div a {
 	color: #fcf3b2;
@@ -135,25 +139,28 @@ img {
 }
 /** Adbox **/
 #adbox {
-	width: 980px;
-	margin: 0px auto 50px;
+	width: 960px;
+	margin: 0px auto 0px;
 	position: relative;
 	border-color: #000000;
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
-	padding: 0 0 50;
+	padding-top: 0;
+	padding-right: 50;
+	padding-left: 0px;
+	padding-bottom: 50;
 	background-color: #000000;
 }
 #adbox ul {
 	display: inline-block;
 	list-style: none;
-	margin: 0 30px;
+	margin: 0 0px;
 	padding: 0;
 }
 #adbox ul li {
 	float: left;
 	width: 250px;
-	margin-left: 45px;
+	margin-left: 0px;
 	margin-top: 20px;
 }
 #adbox ul li:first-child {
@@ -161,15 +168,18 @@ img {
 }
 #adbox ul li img {
 	border: 1px solid #83826e;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 10px;
 }
 #adbox h1, #contents h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: #FDFDFD;
 	font-family: Helvetica;
-	height: 61px;
+	height: 60px;
 	line-height: 60px;
-	margin: 50 0 30px;
+	margin: 10 10 0px;
 	text-align: center;
 	text-transform: uppercase;
 	background-image: -webkit-linear-gradient(270deg,rgba(57,52,52,1.00) 100%,rgba(255,0,0,1.00) 100%);
@@ -192,7 +202,7 @@ img {
 	height: 1600px;
 }
 #contents {
-	width: 980px;
+	width: 960px;
 	margin-top: 0;
 	margin-right: auto;
 	margin-bottom: 0;
@@ -289,7 +299,7 @@ ul#about-list li a:hover, ul#archives li a:hover {
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0;
-	height: 1490px;
+	height: 1600px;
 }
 #main p {
 	color: #fff;

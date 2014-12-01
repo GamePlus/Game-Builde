@@ -18,7 +18,9 @@ body {
 }
 img {
 	border: 0;
-	margin-right: 20px;
+	margin-right: 0px;
+	float: left;
+	
 }
 .more, #footer .subscribe form input.button, #contacts input.button, #shirts a.button {
 	background: url() no-repeat;
@@ -30,7 +32,7 @@ img {
 	background-position: -162px 0;
 	color: #fff;
 	display: block;
-	font-family: 'SancreekRegular';
+	font-family: 'Helvetica';
 	font-size: 20px;
 	line-height: 54px;
 	height: 54px;
@@ -55,18 +57,17 @@ img {
 #header > div {
 	height: 300px;
 	width: 960px;
-	margin: 0 auto;
+	margin:  auto;
 	position: relative;
 	background-color: #000000;
 }
 /** Logo **/
 #logo {
 	position: absolute;
-	top: 27px;
-	left: 337px;
+	top: 30px;
+	left: 350px;
 	right: 150px;
-	width: 282px;
-	height: 170px;
+	width: 300px;
 }
 /** Navigation **/
 #navigation {
@@ -105,8 +106,8 @@ img {
 	display: inline-block;
 	list-style: none;
 	width: 338px;
-	margin: 144px 0 0;
-	padding: 0;
+	margin: 160px 0 0;
+	padding: 10;
 }
 #navigation li {
 	float: left;
@@ -126,7 +127,7 @@ img {
 }
 #navigation ul li a:hover, #navigation ul li.selected a {
 	background: url(../images/bg-menu-selected-left.png) no-repeat left center;
-	color: #fcf3b2;
+	color: #00;
 }
 #navigation ul li a:hover span, #navigation ul li.selected a span {
 	background: url(../images/bg-menu-selected-right.png) no-repeat right center;
@@ -140,37 +141,44 @@ img {
 /** Adbox **/
 #adbox {
 	width: 960px;
-	margin: 0px auto 0px;
+	margin: 20px auto 0px;
 	position: relative;
 	border-color: #000000;
 	-webkit-box-shadow: 0px 0px;
 	box-shadow: 0px 0px;
 	padding-top: 0;
-	padding-right: 50;
-	padding-left: 0px;
-	padding-bottom: 50;
+	padding-right: 0;
+	padding-left: 50px;
+	padding-bottom: 0;
 	background-color: #000000;
 }
 #adbox ul {
 	display: inline-block;
 	list-style: none;
-	margin: 0 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: auto;
+	margin-bottom: 0px;
 	padding: 0;
 }
 #adbox ul li {
 	float: left;
-	width: 250px;
+	width: 320px;
 	margin-left: 0px;
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
 }
 #adbox ul li:first-child {
 	margin-left: 0px;
+	margin-right: 0px;
 }
 #adbox ul li img {
 	border: 1px solid #83826e;
 	padding-left: 0px;
 	padding-right: 0px;
-	margin-right: 10px;
+	margin-right: 0px;
+	right: 0px;
+	float: none;
 }
 #adbox h1, #contents h1 {
 	background-repeat: no-repeat;
@@ -216,7 +224,7 @@ img {
 #articles {
 	display: inline-block;
 	list-style: none;
-	margin: 0 30px;
+	margin: 0 0px;
 	padding: 0;
 }
 #articles li {
@@ -306,8 +314,8 @@ ul#about-list li a:hover, ul#archives li a:hover {
 	font-size: 15px;
 	line-height: 24px;
 	margin: 0;
-	padding: 0 0 24px;
-	text-align: justify;
+	padding: 0 0 0px;
+	
 	right: auto;
 }
 #main p a {
@@ -342,7 +350,7 @@ ul#blogs li a, #sidebar ul.contacts li a {
 	font-size: 15px;
 	line-height: 24px;
 	margin: 0;
-	padding: 0 0 24px;
+	padding: 0 0 0px;
 	text-align: justify;
 	text-decoration: none;
 }
@@ -415,7 +423,7 @@ ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
 	margin-left: 0px;
 }
 #shirts li img {
-	margin: 0 0 12px;
+	margin: 0 0 0px;
 	border: 1px solid #83826e;
 }
 #shirts li a.button {
@@ -581,4 +589,9 @@ ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
 #footnote a {
 	color: #808080;
 	text-decoration: none;
+}
+#xboxone {
+	margin-right: 28px;
+	float: right;
+	clear: left;
 }
